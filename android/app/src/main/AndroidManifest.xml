@@ -1,6 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.qwings_video">
+    package="com.example.qwings_video"
+    xmlns:tools="http://schemas.android.com/tools">
    <application
+        tools:replace="android:label" 
         android:label="qwings_video"
         android:icon="@mipmap/ic_launcher">
         <activity
